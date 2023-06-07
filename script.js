@@ -92,19 +92,7 @@ class App {
     isUsingAsPlayList = false
   ) {
     outputElement.innerHTML = "";
-    //     id:664107
-    // readable:true
-    // title:"Take on Me"
-    // title_short:"Take on Me"
-    // title_version:""
-    // link:"https://www.deezer.com/track/664107"
-    // duration:227
-    // rank:954653
-    // explicit_lyrics:false
-    // explicit_content_lyrics:0
-    // explicit_content_cover:0
-    // preview:"https://cdns-preview-e.dzcdn.net/stream/c-e817b793ead610762756f4f3a48dfcd9-13.mp3"
-    // md5_image:"e0ce8977ab98d73bcea00fc838ece034"
+
     dataToRender.forEach((track) => {
       const {
         id,
